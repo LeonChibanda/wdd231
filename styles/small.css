@@ -85,7 +85,7 @@ nav ul {overflow: hidden;}
 h1 {
     font-size: 1.5rem;
     margin-left: 10px;
-    animation: move 5s ease-in-out;
+    animation: move 6.1s ease-in-out;
 }
 
 @keyframes move {
@@ -211,3 +211,45 @@ dialog {
 }
 footer p {margin: .25rem;}
 
+.name-animation {
+    animation: popOut 3.2s ease-in-out;
+    
+}
+
+@keyframes popOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(2);
+        opacity: 1;
+        color: goldenrod;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 1;
+        color: yellowgreen;
+    }
+    95% {
+        transform: scale(2);
+        opacity: 1;
+        color: darkslategray;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes fontSizeChange {
+    0%, 46.875%, 90.625%, 100% {
+        font-size: initial;
+    }
+    46.875%, 90.625% {
+        font-size: 3rem;
+    }
+}
+
+.name-animation {
+    animation: popOut 3.2s ease-in-out, fontSizeChange 3.2s ease-in-out;
+}
