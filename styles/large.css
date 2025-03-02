@@ -1,0 +1,55 @@
+
+@media only screen and (min-width: 38rem) {
+    button#hamburger {
+        display: none;
+    }
+
+  nav {grid-template-rows: 1fr;}
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+    }
+    nav ul li:last-child a {border:none;}
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .sbs {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 16px;
+    }
+
+    .courses {
+        grid-column: 1 / span 2;
+    }
+
+}
+
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,213 @@
+
+* {
+    font-family: "Cormorant Upright", serif;
+}
+
+
+header {
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem 10px;
+}
+header img {display: block; border-radius: 4px; box-shadow: 0 0 10px rgba(0,0,0,0.2);}
+header span {font-size: 2rem;}
+
+
+nav {
+    background-color: black;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li a {
+    color: #F4F1DE;
+    text-decoration: none;
+    padding: .75rem;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+nav ul li.active a {background-color: greenyellow; color: #000;}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+button#hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+	background: none;
+	border: none;
+	display: block;
+	padding-bottom: .6rem;
+	font-size: 2rem;
+	color: #F4F1DE;
+	text-align: center;
+	width: 50px;
+	cursor: pointer;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+button#hamburger::before {
+	content: "\2630";
+}
+button#hamburger.show::before {
+	content: "x";
+}
+/* Animate open == closed */
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+}
+nav.show {
+    grid-template-rows: 1fr;
+}
+nav ul {overflow: hidden;}
+
+
+h1 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    animation: move 5s ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+        color: white;
+    }
+    50% {
+        right: 50%;
+        transform: translateX(-50%);
+        color: white;
+    }
+    100% {
+        left: 0;
+        color: darkslategray;
+    }
+
+    90% {
+        right: 0%;
+        color: goldenrod;
+    }
+
+    80% {
+        right: 0%;
+        color: yellowgreen;
+    }
+    
+}
+
+
+.card {
+    border: #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    margin: .5rem 10px;
+    overflow: hidden;
+}
+.myphoto {text-align: center;}
+.myphoto figure {
+    margin: .5rem auto;
+}
+.myphoto img {
+    border-radius: 10px;
+    width: 96%;
+    height: auto;
+    max-width: 200px;
+    margin: 0 2%;
+}
+.card h2 {
+    background-color: darkslategray;
+    color: #F4F1DE;
+    margin: 0;
+    padding: .5rem .2rem;
+    text-align: center;
+}
+.courses div {
+    text-align: center;
+}
+.courses button {
+    padding: .75rem;
+    margin: .5rem;
+    border: 1px solid #999;
+    border-radius: 10px;
+    animation: color_change 2s infinite alternate;
+}
+
+@keyframes color_change {
+	0% { background-color: goldenrod; }
+    100% { background-color: greenyellow; }
+}
+#crsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#crsList div {
+    padding: .75rem;
+    margin: .5rem;
+    border-radius: 10px;
+}
+
+
+.needed {
+    background-color: greenyellow;
+}
+
+.complete {
+ background-color: goldenrod;
+}
+
+.complete::before {content:"\2713  "}
+
+.courses p{text-align: center;
+}
+
+
+dialog {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  ::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: .5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 1rem 0;
+    color: #F4F1DE;
+}
+footer p {margin: .25rem;}
+
