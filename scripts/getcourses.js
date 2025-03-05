@@ -1,4 +1,3 @@
-
 //LIST OF COURSES
 const courses = [
     {
