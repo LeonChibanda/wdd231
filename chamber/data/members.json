@@ -2,6 +2,24 @@
 {
     "members": [
         {
+            "name": "Berry and Donaldson Holdings (Pty) Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 507 4000",
+            "websiteUrl": "https://www.berrydon.co.za/",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/66c32ddb2498514d2a6c80c6/3c67b627-5b83-4de7-8b56-83f829d45124/Bery-Don-Logo-Transparent.png?format=1500w",
+            "membership": "Bronze",
+            "id": "berry-donaldson"
+        },
+        {
+            "name": "Famous Brands Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 888 4200",
+            "websiteUrl": "https://www.famousbrands.co.za/",
+            "imageUrl": "https://famousbrands.co.za/wp-content/themes/famous/images/logo.png",
+            "membership": "Silver",
+            "id": "famous-brands"
+        },
+        {
             "name": "Mother City SkyDiving",
             "address": "Diepkloof Airfield, Malmesbury, Western Cape, South Africa",
             "phoneNumber": "+27 82 800 6290",
@@ -108,24 +126,6 @@
             "imageUrl": "https://cadiz.co.za/wp-content/uploads/2022/12/cadiz-logo-web1.jpg",
             "membership": "Gold",
             "id": "cadiz"
-        },
-        {
-            "name": "Berry and Donaldson Holdings (Pty) Ltd",
-            "address": "Cape Town, South Africa",
-            "phoneNumber": "+27 21 507 4000",
-            "websiteUrl": "https://www.berrydon.co.za/",
-            "imageUrl": "https://images.squarespace-cdn.com/content/v1/66c32ddb2498514d2a6c80c6/3c67b627-5b83-4de7-8b56-83f829d45124/Bery-Don-Logo-Transparent.png?format=1500w",
-            "membership": "Bronze",
-            "id": "berry-donaldson"
-        },
-        {
-            "name": "Famous Brands Ltd",
-            "address": "Cape Town, South Africa",
-            "phoneNumber": "+27 21 888 4200",
-            "websiteUrl": "https://www.famousbrands.co.za/",
-            "imageUrl": "https://famousbrands.co.za/wp-content/themes/famous/images/logo.png",
-            "membership": "Silver",
-            "id": "famous-brands"
         }
     ]
 }

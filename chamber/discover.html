@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unofficial Cape Town of commerce Discover page for WDD231 project.">
+    <meta name="author" content="Leon Chibanda">
+    <meta property="og:title" content="Cape Town Chamber of Commerce Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="My Cape Town Chamber of Commerce discover page for WDD 231 project.">
+    <meta property="og:image" content="images/logo.webp">
+    <meta property="og:url" content="https://leonchibanda.github.io/wdd231/chamber/discover.html">
+    <title>Discover - Cape Town Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large-main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Halant:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/discover.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <img src="images/Logo.png" alt="logo" loading="eager" height="120" width="120">
+        </figure>
+        <h1>Cape Town<br>Chamber of Commerce</h1>
+        <button id="menuButton" title="Hamburger Menu"></button>
+        <nav id="animateMe">
+            <ul class="menuLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a class="wayfinding" href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="discover-grid">
+            <div id="discover-cards">
+                <div id="special-events-card" class="mainview-card">
+                    <h2>Special Events</h2>
+                    <ul id="event-list">
+                        <li>business Environment Improvement Events</li>
+                        <li>SME Training Events</li>
+                        <li>Networking Eents</li>
+                        <li>Industry Events</li>
+                        <li>Internal Events</li>
+                    </ul>
+                    <a href="https://capechamber.co.za/events-calendar" target="_blank"><img src="images/calendar.png" alt="calendar" width="60"></a>
+                </div>
+                <div id="job-card" class="mainview-card">
+                    <h2>Job Listings</h2>
+                    <ul id="job-list">
+                        <li><a href="https://www.capetown.gov.za/City-Connect/Find-a-job-or-develop-skills/Apply-for-a-job-with-the-City/Apply-for-work-through-the-EPWP" target="_blank">Assistant City Planner</a></li>
+                        <li><a href="https://www.capetown.gov.za/City-Connect/Find-a-job-or-develop-skills/Apply-for-a-job-with-the-City/Apply-for-work-through-the-EPWP" target="_blank">Mainteance Worker - Century City</a></li>
+                        <li><a href="https://www.capetown.gov.za/City-Connect/Find-a-job-or-develop-skills/Apply-for-a-job-with-the-City/Apply-for-work-through-the-EPWP" target="_blank">Mainteance Worker - Civic hall</a></li>
+                        <li><a href="https://www.capetown.gov.za/City-Connect/Find-a-job-or-develop-skills/Apply-for-a-job-with-the-City/Apply-for-work-through-the-EPWP" target="_blank">Mainteance Worker - Sea Point</a></li>
+                        <li><a href="https://www.capetown.gov.za/Media-and-news#k=critical%20electricity%20work%20" target="_blank">Electrician</a></li>
+                    </ul>
+                    <a href="https://www.capetown.gov.za/" target="_blank"><img src="images/work.png" alt="work" width="60"></a>
+                </div>
+                <div id="demographics-card" class="mainview-card">
+                    <h2>Demographics</h2>
+                    <a href="https://www.capetown.gov.za/" target="_blank"><img id="demographics" src="images/2011.webp" alt="Race Demographics" width="280" height="180"></a>
+                </div>
+                <p id="local-storage"></p>
+            </div>
+            <div id="cape-town-pics">
+                <figure>
+                    <img src="images/mozan-beach.jpg" alt="Muizenberg Beach" loading="lazy" width="300">
+                    <figcaption>Muizenberg Beach</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/civic-hall.jpg" alt="civic-hall" loading="lazy" width="300">
+                    <figcaption>Civic Hall</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Bo-Kaap.jpg" alt="Bo-Kaap" loading="lazy" width="300">
+                    <figcaption>Bo Kaap</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cen-city.jpg" alt="Century City" loading="lazy" width="300">
+                    <figcaption>Century City</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Sea-Point-Cape-Town-SAf.webp" alt="Sea-Point-Cape-Town-SAf" loading="lazy" width="300">
+                    <figcaption>Sea Point</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/tablemountain.webp" alt="Table Mountain" loading="lazy" width="300">
+                    <figcaption>Table Mountain</figcaption> 
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="chamber-address">
+            <p><strong>Cape Town Chamber of Commerce</strong></p>
+            <p>123 Main Street</p>
+            <p>Cape Town, South Africa</p>
+            <p>+27 21 123 4567</p>
+        </div>
+        <div id="social-links">
+            <a href="https://facebook.com" target="_blank">
+                <figure>
+                    <img src="images/fbook-icon.png" alt="Facebook" loading="lazy" width="80" height="80">
+                </figure>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <figure>
+                    <img src="images/insta-icon.png" alt="Instagram" loading="lazy" width="80" height="80">
+                </figure>
+            </a>
+            <a href="https://x.com" target="_blank">
+                <figure>
+                    <img src="images/x-icon.png" alt="Twitter / X" loading="lazy" width="72" height="72">
+                </figure>
+            </a>
+        </div>
+        <div id="project-information">
+            <p>WDD231 Class Project</p>
+            <p>Leon Chibanda</p>
+            <p>©<span id="currentyear"></span> Cape Town Chamber of Commerce</p>
+            <p id="lastModified">
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
