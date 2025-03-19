@@ -29,15 +29,6 @@
             "id": "mountain-manor"
         },
         {
-            "name": "Mumbai Cafe",
-            "address": "44 Long Street, Cape Town, 8000, South Africa",
-            "phoneNumber": "+27 21 422 3636",
-            "websiteUrl": "https://www.mumbaicafe.co.za/",
-            "imageUrl": "https://www.mumbaicafe.co.za/wp-content/uploads/2024/07/logo_transparent-150x150.png",
-            "membership": "Classic",
-            "id": "mumbai-cafe"
-        },
-        {
             "name": "Pick n Pay Holdings (RF) Ltd",
             "address": "Cape Town, South Africa",
             "phoneNumber": "+27 21 658 1000",
