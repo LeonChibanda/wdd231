@@ -1,5 +1,5 @@
-
-[
+{
+    "members" :[
         {
             "Name": "Mother City SkyDiving",
             "Industry": "Adventure Tourism",
@@ -167,3 +167,4 @@
     }
 
 ]
+}
