@@ -1,170 +1,140 @@
-{
-    "members" :[
-        {
-            "Name": "Mother City SkyDiving",
-            "Industry": "Adventure Tourism",
-            "Physical Address": "Diepkloof Airfield, Malmesbury, Western Cape, South Africa",
-            "Website": "https://www.mothercityskydiving.co.za/",
-            "Phone": "+27 82 800 6290",
-            "Representative": "Stephan Smith / Chief Instructor",
-            "MemberSince": "2010",
-            "Membership": "Classic",
-            "logo": "https://mothercityskydiving.co.za/wp-content/uploads/2023/04/MotherCitySkydiving.png"
-        },
-        {
-            "Name": "Mzansi Restaurant",
-            "Industry": "Food & Beverage",
-            "Physical Address": "45 Harlem Avenue, Langa, Cape Town, 7455, South Africa",
-            "Website": "https://www.mzansi45.co.za/",
-            "Phone": "+27 21 694 1651",
-            "Representative": "Nomonde Siyaka / Owner",
-            "MemberSince": "2012",
-            "Membership": "Classic",
-            "logo": "https://mzansi45.co.za/wp-content/uploads/2022/12/MzansiLogo3.png"
-        },
-        {
-            "Name": "Mountain Manor Guest House & Executive Suites",
-            "Industry": "Accommodation",
-            "Physical Address": "17 Breda Street, Gardens, Cape Town, 8001, South Africa",
-            "Website": "https://www.mountainmanor.co.za/",
-            "Phone": "+27 21 465 4942",
-            "Representative": "Michelle Whitehead / Owner",
-            "MemberSince": "2008",
-            "Membership": "Classic",
-            "logo": "https://www.mountainmanor.co.za/wp-content/uploads/2023/10/x-300-x-200-px-400-x-200-px.webp"
-        },
-        {
-            "Name": "Mumbai Cafe",
-            "Industry": "Food & Beverage",
-            "Physical Address": "44 Long Street, Cape Town, 8000, South Africa",
-            "Website": "https://www.mumbaicafe.co.za/",
-            "Phone": "+27 21 422 3636",
-            "Representative": "Rajesh Singh / Manager",
-            "MemberSince": "2018",
-            "Membership": "Classic",
-            "logo": "https://www.mumbaicafe.co.za/wp-content/uploads/2024/07/logo_transparent-150x150.png"
-        },
-{
-        "Name": "Pick n Pay Holdings (RF) Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.pnp.co.za/",
-        "Phone": "+27 21 658 1000",
-        "Representative": "Gareth Ackerman / Chairman",
-        "MemberSince": "01/01/1967",
-        "Membership": "Gold",
-        "logo": "https://cdn-prd-02.pnp.co.za/sys-master/images/h7c/hc7/11159969071134/PicknPayLogo.svg"
-    },
-    {
-        "Name": "Foschini Group Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://tfglimited.co.za/",
-        "Phone": "+27 21 938 1911",
-        "Representative": "Michael Lewis / CEO",
-        "MemberSince": "04/01/1934",
-        "Membership": "Gold",
-        "logo": "https://tfglimited.co.za/wp-content/uploads/2023/09/TFG-Logo.svg"
-    },
-    {
-        "Name": "Truworths International Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.truworths.co.za/",
-        "Phone": "+27 21 460 7911",
-        "Representative": "Michael Mark / CEO",
-        "MemberSince": "10/01/1947",
-        "Membership": "Silver",
-        "logo": "https://www.truworths.co.za/file/general/Logo_Truworths_black.png"
-    },
-    {
-        "Name": "Mr Price Group Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.mrpricegroup.co.za/",
-        "Phone": "+27 21 460 2300",
-        "Representative": "Mark Blair / CEO",
-        "MemberSince": "08/01/1952",
-        "Membership": "Bronze",
-        "logo": "https://mrpricegroup.com/wp-content/uploads/2024/03/Mr-Price-Group-Logo.png"
-    },
-    {
-        "Name": "Spar Group Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.spar.co.za/",
-        "Phone": "+27 21 507 8700",
-        "Representative": "Graham O'Connor / CEO",
-        "MemberSince": "03/01/1963",
-        "Membership": "Gold",
-        "logo": "https://www.spar.co.za/SPAR/media/img/SPAR_Logo_1.jpg"
-    },
-    {
-        "Name": "Clicks Group Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.clicksgroup.co.za/",
-        "Phone": "+27 21 460 1911", 
-        "Representative": "Vikesh Ramsunder / CEO",
-        "MemberSince": "06/01/1968",
-        "Membership": "Gold",
-        "logo": "https://www.clicksgroup.co.za/wp-content/themes/clicksgroup/images/logo.svg"
-    },
-    {
-        "Name": "Shoprite Holdings Ltd",
-        "Industry": "Retail",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.shopriteholdings.co.za/",
-        "Phone": "+27 21 980 4000",
-        "Representative": "Pieter Engelbrecht / CEO",
-        "MemberSince": "11/01/1979",
-        "Membership": "Platinum",
-        "logo": "https://www.shopriteholdings.co.za/content/dam/shp/site-images/Shoprite_Logo_Small.svg"
-    },
-    {
-        "Name": "Sea Harvest Holdings (Pty) Ltd",
-        "Industry": "Food & Beverage",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.seaharvest.co.za/",
-        "Phone": "+27 21 468 7900",
-        "Representative": "Felix Ratheb / CEO",
-        "MemberSince": "05/01/1964",
-        "Membership": "Silver",
-        "logo": "https://www.seaharvest.co.za/wp-content/uploads/2024/08/SH-logo.png"
-    },
-    {
-        "Name": "Cadiz Holdings Ltd",
-        "Industry": "Financial Services",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.cadiz.co.za/",
-        "Phone": "+27 21 657 8300",
-        "Representative": "Francois Groepe / Chairman",
-        "MemberSince": "08/01/1993",
-        "Membership": "Gold",
-        "logo": "https://cadiz.co.za/wp-content/uploads/2022/12/cadiz-logo-web1.jpg"
-    },
-    {
-        "Name": "Berry and Donaldson Holdings (Pty) Ltd",
-        "Industry": "Logistics",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.berrydon.co.za/",
-        "Phone": "+27 21 507 4000",
-        "Representative": "Tony Swart / Managing Director",
-        "MemberSince": "06/01/1962",
-        "Membership": "Bronze",
-        "logo": "https://images.squarespace-cdn.com/content/v1/66c32ddb2498514d2a6c80c6/3c67b627-5b83-4de7-8b56-83f829d45124/Bery-Don-Logo-Transparent.png?format=1500w"
-    },
-    {
-        "Name": "Famous Brands Ltd",
-        "Industry": "Food & Beverage",
-        "Physical Address": "Cape Town, South Africa",
-        "Website": "https://www.famousbrands.co.za/",
-        "Phone": "+27 21 888 4200",
-        "Representative": "Darren Hele / CEO",
-        "MemberSince": "09/01/1994",
-        "Membership": "Silver",
-        "logo": "https://famousbrands.co.za/wp-content/themes/famous/images/logo.png"
-    }
 
-]
+{
+    "members": [
+        {
+            "name": "Mother City SkyDiving",
+            "address": "Diepkloof Airfield, Malmesbury, Western Cape, South Africa",
+            "phoneNumber": "+27 82 800 6290",
+            "websiteUrl": "https://www.mothercityskydiving.co.za/",
+            "imageUrl": "https://mothercityskydiving.co.za/wp-content/uploads/2023/04/MotherCitySkydiving.png",
+            "membership": "Classic",
+            "id": "mother-city-skydiving"
+        },
+        {
+            "name": "Mzansi Restaurant",
+            "address": "45 Harlem Avenue, Langa, Cape Town, 7455, South Africa",
+            "phoneNumber": "+27 21 694 1651",
+            "websiteUrl": "https://www.mzansi45.co.za/",
+            "imageUrl": "https://mzansi45.co.za/wp-content/uploads/2022/12/MzansiLogo3.png",
+            "membership": "Classic",
+            "id": "mzansi-restaurant"
+        },
+        {
+            "name": "Mountain Manor Guest House & Executive Suites",
+            "address": "17 Breda Street, Gardens, Cape Town, 8001, South Africa",
+            "phoneNumber": "+27 21 465 4942",
+            "websiteUrl": "https://www.mountainmanor.co.za/",
+            "imageUrl": "https://www.mountainmanor.co.za/wp-content/uploads/2023/10/x-300-x-200-px-400-x-200-px.webp",
+            "membership": "Classic",
+            "id": "mountain-manor"
+        },
+        {
+            "name": "Mumbai Cafe",
+            "address": "44 Long Street, Cape Town, 8000, South Africa",
+            "phoneNumber": "+27 21 422 3636",
+            "websiteUrl": "https://www.mumbaicafe.co.za/",
+            "imageUrl": "https://www.mumbaicafe.co.za/wp-content/uploads/2024/07/logo_transparent-150x150.png",
+            "membership": "Classic",
+            "id": "mumbai-cafe"
+        },
+        {
+            "name": "Pick n Pay Holdings (RF) Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 658 1000",
+            "websiteUrl": "https://www.pnp.co.za/",
+            "imageUrl": "https://cdn-prd-02.pnp.co.za/sys-master/images/h7c/hc7/11159969071134/PicknPayLogo.svg",
+            "membership": "Gold",
+            "id": "pick-n-pay"
+        },
+        {
+            "name": "Foschini Group Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 938 1911",
+            "websiteUrl": "https://tfglimited.co.za/",
+            "imageUrl": "https://tfglimited.co.za/wp-content/uploads/2023/09/TFG-Logo.svg",
+            "membership": "Gold",
+            "id": "foschini-group"
+        },
+        {
+            "name": "Truworths International Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 460 7911",
+            "websiteUrl": "https://www.truworths.co.za/",
+            "imageUrl": "https://www.truworths.co.za/file/general/Logo_Truworths_black.png",
+            "membership": "Silver",
+            "id": "truworths"
+        },
+        {
+            "name": "Mr Price Group Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 460 2300",
+            "websiteUrl": "https://www.mrpricegroup.co.za/",
+            "imageUrl": "https://mrpricegroup.com/wp-content/uploads/2024/03/Mr-Price-Group-Logo.png",
+            "membership": "Bronze",
+            "id": "mr-price"
+        },
+        {
+            "name": "Spar Group Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 507 8700",
+            "websiteUrl": "https://www.spar.co.za/",
+            "imageUrl": "https://www.spar.co.za/SPAR/media/img/SPAR_Logo_1.jpg",
+            "membership": "Gold",
+            "id": "spar-group"
+        },
+        {
+            "name": "Clicks Group Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 460 1911",
+            "websiteUrl": "https://www.clicksgroup.co.za/",
+            "imageUrl": "https://www.clicksgroup.co.za/wp-content/themes/clicksgroup/images/logo.svg",
+            "membership": "Gold",
+            "id": "clicks-group"
+        },
+        {
+            "name": "Shoprite Holdings Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 980 4000",
+            "websiteUrl": "https://www.shopriteholdings.co.za/",
+            "imageUrl": "https://www.shopriteholdings.co.za/content/dam/shp/site-images/Shoprite_Logo_Small.svg",
+            "membership": "Platinum",
+            "id": "shoprite"
+        },
+        {
+            "name": "Sea Harvest Holdings (Pty) Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 468 7900",
+            "websiteUrl": "https://www.seaharvest.co.za/",
+            "imageUrl": "https://www.seaharvest.co.za/wp-content/uploads/2024/08/SH-logo.png",
+            "membership": "Silver",
+            "id": "sea-harvest"
+        },
+        {
+            "name": "Cadiz Holdings Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 657 8300",
+            "websiteUrl": "https://www.cadiz.co.za/",
+            "imageUrl": "https://cadiz.co.za/wp-content/uploads/2022/12/cadiz-logo-web1.jpg",
+            "membership": "Gold",
+            "id": "cadiz"
+        },
+        {
+            "name": "Berry and Donaldson Holdings (Pty) Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 507 4000",
+            "websiteUrl": "https://www.berrydon.co.za/",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/66c32ddb2498514d2a6c80c6/3c67b627-5b83-4de7-8b56-83f829d45124/Bery-Don-Logo-Transparent.png?format=1500w",
+            "membership": "Bronze",
+            "id": "berry-donaldson"
+        },
+        {
+            "name": "Famous Brands Ltd",
+            "address": "Cape Town, South Africa",
+            "phoneNumber": "+27 21 888 4200",
+            "websiteUrl": "https://www.famousbrands.co.za/",
+            "imageUrl": "https://famousbrands.co.za/wp-content/themes/famous/images/logo.png",
+            "membership": "Silver",
+            "id": "famous-brands"
+        }
+    ]
 }
