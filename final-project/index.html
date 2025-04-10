@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Leon Chibanda">
+    <meta name="keywords" content="Hiking, Trails, Adventure, Nature, Outdoors">
+    <meta property="og:site_name" content="Hike Infinity">
+    <meta property="og:title" content="Home | Hike Infinity">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the best hiking trails and outdoor adventures near you.">
+    <meta property="og:image" content="https://leonchibanda.github.io/wdd231/final-project/images/home-hero.webp">
+    <meta property="og:url" content="https://leonchibanda.github.io/wdd231/final-project/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Home | Hike Infinity</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="../final-project/scripts/services.js" defer></script>
+</head>
+
+<body id="index-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="../final-project/images/logos/logo.png" alt="Logo Hike Infinity"
+                    width="200" height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>Hike</strong> Infinity</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./services.html">Services</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro-box">
+            <picture class="intro-img">
+                <source media="(min-width: 900px)" srcset="../final-project/images/hero-big.webp" width="900" height="760">
+                <source media="(min-width: 620px)" srcset="../final-project/images/table-mountain-hiking-lockdown.jpg" width="620" height="760">
+                <img src="../final-project/images/1.jpeg" alt="Hike Infinity" width="420" height="760" loading="lazy">
+            </picture>
+            <div class="intro-content">
+                <div class="intro-msg">
+                    <h2>Answer the call of the wild <br>and <strong>explore infinity.</strong></h2>
+                </div>
+                <div class="button-contact">
+                    <button class="css-button-arrow--black" onclick="location.href='../contact.html'">JOIN
+                        NOW</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="midle-box">
+            <article class="side_article">
+            <h3>Explore <br>
+                with us!</h3>
+            <p>Discover the best hiking trails and outdoor adventures near you.</p>
+            <img src="../final-project/images/22.webp" alt="Trail Adventure" width="280" height="300" loading="lazy">
+            </article>
+            <article class="main_article">
+                <div class="card_01 box-card">
+                    <img src="images/table-mt-1.jpg.webp" alt="Hiking Adventure" width="550" height="780" loading="lazy">
+                    <br><br>
+                    <img src="images/1.jpeg" alt="Hiking Adventure" width="550" height="780" loading="lazy">
+                    <h4>Customized Trails</h4>
+                   <p>We offer trails tailored to your preferences, whether you're seeking a leisurely walk or a challenging hike.</p>
+                </div>
+
+                <div class="card_02 box-card">
+                    <img src="images/table-mt-2.jpg.webp" alt="Hiking Adventure" width="550" height="780" loading="lazy">
+                    <br><br>
+                    <img src="images/2.webp" alt="Hiking Adventure" width="550" height="780" loading="lazy">
+                    <h4>Guided Experiences</h4>
+                    <p>Our experienced guides ensure your hiking experience is safe, enjoyable, and unforgettable.</p>
+                </div>
+
+                <div class="card_03 box-card">
+                    <img src="images/table-mt-3.jpg.webp" alt="Hiking Adventure" width="550" height="780" loading="lazy">
+                    <br><br>
+                    <img src="images/3.webp" alt="Hiking Adventure" width="550" height="780" loading="lazy">
+                    <h4>Flexible Hikes</h4>
+                    <p>We offer flexible booking options to accommodate your schedule and preferences.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-media">
+            <h2>🌿 Nature at Its Best 🌄</h2>
+            <p>🌟 Discover breathtaking trails, 🌳 immerse yourself in lush greenery, 🦋 connect with wildlife, and 🌞 soak in the beauty of the great outdoors. 🌍 Adventure awaits! 🥾</p>
+            <article class="slider-container slider-dimensions">
+                <div class="slider">
+                    <div data-img-url="../final-project/images/1.jpeg" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Eco-Friendly Practices</h4>
+                    </div>
+                    <div data-img-url="../final-project/images/2.webp" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Scenic Views</h4>
+                    </div>
+                    <div data-img-url="../final-project/images/3.webp" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Expert Guides</h4>
+                    </div>
+                    <div data-img-url="../final-project/images/contact-page-0000.jpg" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Affordable Packages</h4>
+                    </div>
+                </div>
+                <div class="nav-container slider-dimensions">
+                    <button data-index-change="-1">&lt;</button>
+                    <div class="index-container">
+                    </div>
+                    <button data-index-change="1">&gt;</button>
+                </div>
+            </article>
+        </section>
+        <div class="socia-info">
+            <div class="contact-item">
+                <h4>Phone</h4>
+                <p>(+27) 079 032 9206</p>
+            </div>
+            <div class="contact-item">
+                <h4>Email:</h4>
+                <p>leonchibanda@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <h4>Social:</h4>
+                <p>
+                    <a href="#"><img src="images/logos/facebook.svg" alt="Facebook" width="104"
+                            height="104" loading="lazy"></a>
+                    <a href="#"><img src="images/logos/twitter.svg" alt="Twitter" width="104"
+                            height="104" loading="lazy"></a>
+                    <a href="#"><img src="images/logos/instagram.svg" alt="Instagram" width="104"
+                            height="104" loading="lazy"></a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <h4>Location:</h4>
+                <p>123 Trail St, Adventure City, CT 7441</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2025</span> - Leon Chibanda - Hike Infinity</p>
+        <p id="lastModified">Step into nature, breathe the fresh air, and embrace the adventure.  
+            Trails that inspire, views that amaze.  
+            Your journey begins here.  
+            Explore infinity with us.
+        </p>
+    </footer>
+</body>
+</html>

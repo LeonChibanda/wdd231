@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hiking Services">
+    <meta name="author" content="Leon Chibanda">
+    <meta name="keywords" content="Hiking, Services, Adventure, Trails, Booking, Nature">
+    <meta property="og:site_name" content="Hiking Services">
+    <meta property="og:title" content="Home | Hiking Services">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Explore and book guided hiking services. Discover nature's beauty with expert guides.">
+    <meta property="og:url" content="https://leonchibanda.github.io/wdd231/final-project/index.html">
+    <meta property="og:image" content="https://leonchibanda.github.io/wdd231/final-project/images/home-hero.webp">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Pick | Hiking Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="../final-project/scripts/services.js" defer></script>
+
+</head>
+
+<body id="visit-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="/final-project//images/logos/logo.png" alt="Logo Hiking Services"
+                    width="200" height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>Hiking</strong> Services</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./services.html">Services</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-principal">
+            <h2>Hiking <span>Packages</span></h2>
+            <article class="price-box">
+                <div>
+                    <img src="images/22.webp" alt="Beginner Trails" width="540" height="960" loading="lazy">
+                    <h4>Beginner Trails</h4>
+                    <p>Perfect for those new to hiking. Enjoy scenic and easy-to-navigate trails.</p>
+                    <button class="css-button-arrow--black" onclick="location.href='../final-project/contact.html'">BOOK
+                        NOW</button>
+                </div>
+                <div>
+                    <img src="images/price-img-02-smalll.png" alt="Intermediate Trails" width="540" height="960" loading="lazy">
+                    <h4>Intermediate Trails</h4>
+                    <p>Challenge yourself with moderate trails that offer stunning views.</p>
+                    <button class="css-button-arrow--black" onclick="location.href='../final-project/contact.html'">BOOK NOW</button>
+                </div>
+                <div>
+                    <img src="images/11.webp" alt="Advanced Trails" width="540" height="960" loading="lazy">
+                    <h4>Advanced Trails</h4>
+                    <p>For experienced hikers, explore rugged terrains and breathtaking landscapes.</p>
+                    <button class="css-button-arrow--black" onclick="location.href='../final-project/contact.html'">BOOK
+                        NOW</button>
+                </div>
+                <div>
+                    <img src="images/3.jpg" alt="Custom Adventures" width="540" height="960" loading="lazy">
+                    <h4>Custom Adventures</h4>
+                    <p>Tailored hiking experiences to suit your preferences and skill level.</p>
+                    <button class="css-button-arrow--black" onclick="location.href='..final-project/contact.html'">BOOK
+                        NOW</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-media">
+            <h2>What We Offer</h2>
+            <p>Hiking Services provides guided hiking experiences for all skill levels. From beginner trails to advanced
+                adventures, we ensure a safe and memorable journey into nature.</p>
+            <article class="slider-container slider-dimensions">
+                <div class="slider">
+                    <div data-img-url="../final-project/images/1.jpeg" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Experienced Guides</h4>
+                    </div>
+                    <div data-img-url="../final-project/images/2.webp" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Scenic Trails</h4>
+                    </div>
+                    <div data-img-url="../final-project/images/3.webp" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Group or Solo Options</h4>
+                    </div>
+                    <div data-img-url="../final-project/images/contact-page-0000.jpg" class="slider-dimensions" width="470"
+                        loading="lazy">
+                        <h4>Custom Adventures</h4>
+                    </div>
+                </div>
+                <div class="nav-container slider-dimensions">
+                    <button data-index-change="-1">&lt;</button>
+                    <div class="index-container">
+                    </div>
+                    <button data-index-change="1">&gt;</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-opinion">
+            <h2>What Our Clients Say</h2>
+            <div class="opinion opinion-01">
+                <p>"The beginner trail was perfect for my first hike. Beautiful scenery and great guidance!"</p>
+                <h5>Michael Johnson</h5>
+            </div>
+            <div class="opinion opinion-02">
+                <p>"The intermediate trail was a great challenge. The views were breathtaking!"</p>
+                <h5>Sarah Lee</h5>
+            </div>
+            <div class="opinion opinion-03">
+                <p>"The custom adventure was amazing. The guide tailored the experience to our group perfectly!"</p>
+                <h5>Chris Adams</h5>
+            </div>
+        </section>
+        <div class="socia-info">
+            <div class="contact-item">
+                <h4>Phone</h4>
+                <p>(+27) 079 032 9206</p>
+            </div>
+            <div class="contact-item">
+                <h4>Email:</h4>
+                <p>leonchibanda@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <h4>Social:</h4>
+                <p>
+                    <a href="#"><img src="images/logos/facebook.svg" alt="Facebook" width="104"
+                            height="104" loading="lazy"></a>
+                    <a href="#"><img src="images/logos/twitter.svg" alt="Twitter" width="104"
+                            height="104" loading="lazy"></a>
+                    <a href="#"><img src="images/logos/instagram.svg" alt="Instagram" width="104"
+                            height="104" loading="lazy"></a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <h4>Location:</h4>
+                <p>123 Trail St, Adventure City, CT 7441</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2025</span> - Leon Chibanda - Hike Infinity</p>
+        <p id="lastModified">Step into nature, breathe the fresh air, and embrace the adventure.  
+            Trails that inspire, views that amaze.  
+            Your journey begins here.  
+            Explore infinity with us.
+        </p>
+    </footer>
+</body>
+
+</html>
