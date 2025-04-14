@@ -1,0 +1,40 @@
+{
+    "areas": [
+        {
+            "name": "Muizenberg Beach",
+            "addresses": "Muizenberg, Cape Town, South Africa",
+            "imageurl": "images/mozan-beach.jpg",
+            "description": "A popular beach known for its colorful beach huts, surfing, and vibrant atmosphere. Perfect for families and water sports enthusiasts."
+        },
+        {
+            "name": "Civic Hall",
+            "addresses": "Civic Centre, Cape Town, South Africa",
+            "imageurl": "images/civic-hall.jpg",
+            "description": "A historic venue in Cape Town, hosting cultural events, exhibitions, and community gatherings."
+        },
+        {
+            "name": "Bo-Kaap",
+            "addresses": "Bo-Kaap, Cape Town, South Africa",
+            "imageurl": "images/Bo-Kaap.webp",
+            "description": "A historic neighborhood known for its brightly colored houses and rich Cape Malay culture. A must-visit for history and photography enthusiasts."
+        },
+        {
+            "name": "Century City",
+            "addresses": "Century City, Cape Town, South Africa",
+            "imageurl": "images/cen-city.jpg",
+            "description": "A modern urban hub featuring shopping centers, entertainment venues, and scenic canals."
+        },
+        {
+            "name": "Sea Point",
+            "addresses": "Sea Point, Cape Town, South Africa",
+            "imageurl": "images/Sea-Point-Cape-Town.webp",
+            "description": "A vibrant seaside suburb with a popular promenade, offering stunning ocean views and recreational activities."
+        },
+        {
+            "name": "Table Mountain",
+            "addresses": "Table Mountain, Cape Town, South Africa",
+            "imageurl": "images/tablemountain.webp",
+            "description": "One of the New Seven Wonders of Nature, Table Mountain offers breathtaking views of Cape Town and is a haven for hikers and nature lovers."
+        }
+    ]
+}
