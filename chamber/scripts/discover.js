@@ -40,7 +40,7 @@ window.onload = (event) => {
 
 import { displayLocationDetails } from "./discover-model.js";
 
-const areaUrl = 'https://raw.githubusercontent.com/leonchibanda/wdd231/refs/heads/main/chamber/discoverItems.json';
+const areaUrl = 'https://raw.githubusercontent.com/LeonChibanda/wdd231/refs/heads/main/chamber/data/discoverItems.json';
 
 const cards = document.querySelector('#areas');
 
