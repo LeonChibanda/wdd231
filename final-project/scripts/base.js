@@ -1,4 +1,4 @@
-export function initializeCommon() {
+{
     document.addEventListener("DOMContentLoaded", () => {
         const hamButton = document.querySelector("#menu");
         const navigation = document.querySelector("nav");
@@ -8,14 +8,15 @@ export function initializeCommon() {
             navigation.classList.toggle("open");
             hamButton.classList.toggle("open");
         });
+
         // footer
         document.getElementById("currentyear").textContent =
             new Date().getFullYear();
         document.getElementById(
             "lastModified"
         ).textContent = `Last Modified: ${document.lastModified}`;
-    });
-    document.addEventListener("DOMContentLoaded", () => {
+
+        // Highlight active navigation link
         const bodyId = document.body.id;
         const navLinks = document.querySelectorAll("nav .nav-a");
 
